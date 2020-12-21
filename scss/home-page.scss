@@ -113,6 +113,8 @@ body {
     }
     .fr {
         text-align: right;
+        padding-right: 120px;
+        font-size: 13px;
     }
     .fixedBanner1{
         height: 100vh;
@@ -127,7 +129,7 @@ body {
                 color: #ffffff;
                 font-size: 18px;
                 font-weight: 800;
-                padding-top: 30px;
+                padding-top: 45px;
                 p {
                     margin: auto;
                 }
@@ -137,16 +139,23 @@ body {
                 box-sizing: border-box;
                 font-size: 16px;
                 color: #F5F6F8;
+                padding-top: 20px;
                 p {
                     display: block;
                     opacity: 1;
                 }
                 .data-box {
                     width: 100%;
-                    margin: 50px 0;
+                    margin: 30px 0;
                     display: flex;
                     justify-content: center;
                     flex-wrap: wrap;
+                    .data-title{
+                        width: 100%;
+                        text-align: right;
+                        font-size: 10px;
+                        padding-right: 60px;
+                    }
                 }
             }
         }
@@ -217,8 +226,6 @@ body {
     }
     .msg1 {
         width: 100%;
-        margin: 60px 0;
-        margin-bottom: 110px;
         img {
             width: 100%;
         }
@@ -238,10 +245,9 @@ body {
         margin-bottom: -100px;
     }
     iframe {
-        height: 430px;
-        width: 590px;
+        height: 420px;
+        width: 580px !important;
         margin: 50px 143px;
-        // position: absolute;
         left: 0;
         right: 0;
         margin-top: 40px;
@@ -269,7 +275,7 @@ body {
     }
     // 左边文字 右边数据图
     .data-box2 {
-        padding: 50px 315px;
+        padding: 50px 267px;
         box-sizing: border-box;
         font-size: 16px;
         color: #F5F6F8;
@@ -280,8 +286,9 @@ body {
             height: 500px;
             .scroll-box {
                 overflow: hidden;
-                width: 407px;
+                width: 570px;
                 position: relative;
+                text-align: center;
                 .scrollShow-info {
                     height: 500px;
                     overflow-x: hidden;
@@ -297,8 +304,8 @@ body {
                 }
             }
             iframe {
-                width: 382px !important;
-                height: 405px !important;
+                width: 370px !important;
+                height: 390px !important;
                 margin: 0 !important;
             }
         }
@@ -442,19 +449,17 @@ footer {
     height: 200px;
     background-color: black;
     color: white;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     h2 {
         margin: auto;
         text-align: center;
         padding-top: 30px;
-    }
-    img {
-        position: absolute;
-        left: 680px;
-        top: 80px;
+        width: 100%;
     }
 }
 
 .tt {
-    height: 330px;
+    height: 310px;
 }

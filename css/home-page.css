@@ -129,6 +129,8 @@ body .w {
 
 body .fr {
   text-align: right;
+  padding-right: 120px;
+  font-size: 13px;
 }
 
 body .fixedBanner1 {
@@ -146,7 +148,7 @@ body .box-2 .content-box .tags-box {
   color: #ffffff;
   font-size: 18px;
   font-weight: 800;
-  padding-top: 30px;
+  padding-top: 45px;
 }
 
 body .box-2 .content-box .tags-box p {
@@ -158,6 +160,7 @@ body .box-2 .content-box .article-box {
   box-sizing: border-box;
   font-size: 16px;
   color: #F5F6F8;
+  padding-top: 20px;
 }
 
 body .box-2 .content-box .article-box p {
@@ -167,10 +170,17 @@ body .box-2 .content-box .article-box p {
 
 body .box-2 .content-box .article-box .data-box {
   width: 100%;
-  margin: 50px 0;
+  margin: 30px 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+body .box-2 .content-box .article-box .data-box .data-title {
+  width: 100%;
+  text-align: right;
+  font-size: 10px;
+  padding-right: 60px;
 }
 
 body .fixedBanner2 {
@@ -249,8 +259,6 @@ body p span i {
 
 body .msg1 {
   width: 100%;
-  margin: 60px 0;
-  margin-bottom: 110px;
 }
 
 body .msg1 img {
@@ -276,8 +284,8 @@ body .wujin {
 }
 
 body iframe {
-  height: 430px;
-  width: 590px;
+  height: 420px;
+  width: 580px !important;
   margin: 50px 143px;
   left: 0;
   right: 0;
@@ -309,7 +317,7 @@ body .img1 .blackOut3 {
 }
 
 body .data-box2 {
-  padding: 50px 315px;
+  padding: 50px 267px;
   box-sizing: border-box;
   font-size: 16px;
   color: #F5F6F8;
@@ -324,8 +332,9 @@ body .data-box2 .info-web {
 
 body .data-box2 .info-web .scroll-box {
   overflow: hidden;
-  width: 407px;
+  width: 570px;
   position: relative;
+  text-align: center;
 }
 
 body .data-box2 .info-web .scroll-box .scrollShow-info {
@@ -344,8 +353,8 @@ body .data-box2 .info-web .scroll-box .scrollShow-info p {
 }
 
 body .data-box2 .info-web iframe {
-  width: 382px !important;
-  height: 405px !important;
+  width: 370px !important;
+  height: 390px !important;
   margin: 0 !important;
 }
 
@@ -492,21 +501,18 @@ footer div p {
   height: 200px;
   background-color: black;
   color: white;
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .bktotop h2 {
   margin: auto;
   text-align: center;
   padding-top: 30px;
-}
-
-.bktotop img {
-  position: absolute;
-  left: 680px;
-  top: 80px;
+  width: 100%;
 }
 
 .tt {
-  height: 330px;
+  height: 310px;
 }
