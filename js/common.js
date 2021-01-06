@@ -148,9 +148,10 @@ function fixedScrollTwo(elem, mubiao, index, marignBox) {
     let bottom = elem.getBoundingClientRect().bottom;
     if (bottom <= 0) {
         $(`.${mubiao}`).css({
-            'position': 'relative',
+            'position': 'fixed',
+            //'height':'30vh',
             "display": 'block',
-            'z-index': '0'
+            'z-index': `-4`
         })
         $(`.${marignBox}`).css({
             "margin-top": '0',
@@ -162,7 +163,7 @@ function fixedScrollTwo(elem, mubiao, index, marignBox) {
             'z-index': `${index}`
         })
         $(`.${marignBox}`).css({
-            "margin-top": '100vh',
+            "margin-top": '40vh',
         })
     }
 }
